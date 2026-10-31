@@ -5,4 +5,6 @@ module com.joao.libraryfx {
 
     opens com.joao.libraryfx to javafx.fxml;
     exports com.joao.libraryfx;
+
+    opens com.joao.libraryfx.products to javafx.base;
 }
